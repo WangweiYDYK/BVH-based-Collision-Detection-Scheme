@@ -6,7 +6,7 @@ find_package(CUDAToolkit REQUIRED)
 
 add_executable(bvhcd)
 target_link_libraries(bvhcd PRIVATE assimp::assimp)
-target_link_libraries(bvhcd PRIVATE CUDA::cuda_driver CUDA::cudart)
+target_link_libraries(bvhcd PRIVATE CUDA::cuda_driver)
 
 target_compile_features(bvhcd PRIVATE cuda_std_17 cxx_std_17)
 set_target_properties(bvhcd

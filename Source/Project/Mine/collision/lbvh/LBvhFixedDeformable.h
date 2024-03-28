@@ -111,7 +111,7 @@ namespace mn {
 		thrust::device_vector<uint>			d_offsetTable;
 		// sort
 		thrust::device_vector<uint>			d_count;
-		thrust::device_vector<uint>			d_keys32;
+		thrust::device_vector<uint>			d_keys32;				///< 32-bit mortan code keys
 		thrust::device_vector<uint64>		d_keys64;
 		thrust::device_vector<int>			d_vals;
 		/// single values

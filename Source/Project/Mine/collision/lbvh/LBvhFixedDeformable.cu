@@ -146,6 +146,7 @@ namespace mn {
 		//configuredLaunch({ "CalcMC64s", cbvh().primSize() }, calcMC64s,
 		//	cbvh().primSize(), d_faces, d_vertices, cbvh().bv(), getRawPtr(d_keys64));
 
+		/// sort prims according to mortan code
 		reorderPrims();
 
 		/// build primitives

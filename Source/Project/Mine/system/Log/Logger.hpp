@@ -6,7 +6,6 @@
 #include "utility/Timer.hpp"
 #include <iostream>
 #include <filesystem>
-
 namespace fs = std::filesystem;
 
 namespace mn {

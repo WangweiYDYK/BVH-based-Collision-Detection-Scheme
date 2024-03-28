@@ -10,7 +10,7 @@ namespace mn {
 	const std::string	outputFileFormat;
 
 	/// default address for standalone benchmarks
-	std::string	CDBenchmarkSettings::_inputBaseAddr("C:\\Mine\\Assets\\");
+	std::string	CDBenchmarkSettings::_inputBaseAddr("D:\\Code\\BVH-based-Collision-Detection-Scheme\\Assets\\");
 	std::string	CDBenchmarkSettings::_outputBaseAddr("C:\\Mine\\ExpResults\\standaloneCD\\gtx1060\\");
 	//std::string	CDBenchmarkSettings::_inputBaseAddr("E:\\data\\wxl-data\\");
 	//std::string	CDBenchmarkSettings::_outputBaseAddr("E:\\data\\wxl-data\\ExpResults\\bvh-cd-benchmarks\\");
